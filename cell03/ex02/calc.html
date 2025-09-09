@@ -7,8 +7,8 @@
     <title>Calculator</title>
     <script>
         function calculate (){
-            let number1 = document.getElementById("Num_1").value;
-            let number2 = document.getElementById("Num_2").value;
+            let number1 = document.getElementById("Num1").value;
+            let number2 = document.getElementById("Num2").value;
             let operator = document.getElementById("Oprator").value;
             if (operator == "Choose") alert("Please select and operator") ;
             else if (OnlyNumbers(number1) && OnlyNumbers(number2)){
@@ -31,7 +31,7 @@
 </head>
 <body>
     <div>
-        <input id="Num_1"/>
+        <input id="Num1"/>
         <form>
             <select id="Oprator">
                 <option value="Choose">Choose</option>
@@ -42,7 +42,7 @@
                 <option value="%">%</option>
             </select>
         </form>
-        <input id="Num_2"/>
+        <input id="Num2"/>
         <input type="submit"value="Try me!"onclick="calculate()"/>
     </div>
 </body>
