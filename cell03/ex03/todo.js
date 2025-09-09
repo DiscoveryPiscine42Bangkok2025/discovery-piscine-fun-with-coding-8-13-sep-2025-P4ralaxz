@@ -30,7 +30,7 @@ function addList(value, id = 'None'){
         list.prepend(div);
     }
     div.onclick = function(e){
-        if(confirm(`${this.id}`)){
+        if(confirm(`${"Are You Sure ?"}`)){
             deletelist(this.id);
             this.remove();   
         }   
