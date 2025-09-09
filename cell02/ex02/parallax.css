@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.top {
+    background-image: url("https://ew.com/thmb/fZ24jRycqmBu8ZWlP2lFQwyesxM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/taro-skamoto-071125-aa8fbe5bde5046d1925ac860edf132b8.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color:rgb(0, 0, 0); 
+}
+.mid {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
+}
+.bot {
+    background-image: url("https://techwiser.com/wp-content/uploads/2025/01/Nagumo-Sakamoto-Days-_-Credits_-TMS-Entertainment.webp");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text{
+    color:white;
+    height: 100%;
+    margin:0 auto;
+    transform: translate(50%,95%);
+    left:50%;
+    bottom: 0px;
+}
